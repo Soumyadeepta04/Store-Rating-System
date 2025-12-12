@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        --gradient-success: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        --gradient-dark: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+    }
+
+    body {
+        @apply bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 min-h-screen;
+    }
+}
+
+@layer components {
+    .glass-effect {
+        @apply bg-white/80 backdrop-blur-xl border border-white/20 shadow-xl;
+    }
+
+    .gradient-primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+
+    .gradient-secondary {
+        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    }
+
+    .gradient-success {
+        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    }
+
+    .btn-gradient {
+        @apply bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-semibold py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200;
+    }
+
+    .card-hover {
+        @apply transition-all duration-300 hover:shadow-2xl hover:-translate-y-1;
+    }
+
+    .input-modern {
+        @apply w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:ring-4 focus:ring-purple-100 transition-all duration-200 outline-none;
+    }
+}
