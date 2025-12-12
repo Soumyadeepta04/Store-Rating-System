@@ -14,18 +14,59 @@ A modern, full-stack store rating platform built with React, Node.js, Express, P
 
 ---
 
-## 🎬 Project Walkthrough Video
-
-<div align="center">
-  <!-- Video will be added here -->
-  <p><i>Project walkthrough video coming soon...</i></p>
-</div>
-
 ## 📸 Application Screenshots
 
 <div align="center">
-  <!-- Screenshots will be added here -->
-  <p><i>Screenshots will be added soon...</i></p>
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/0adb6760-0e79-44c8-a121-df6c5258dcae" alt="Login Page" width="450"/>
+        <br/>
+        <b>🔐 Login Page</b>
+        <br/>
+        <i>Users can securely log in and access their dashboard</i>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/ef16b6fc-94a5-40fc-8d89-10de0814b1af" alt="Create Account Page" width="450"/>
+        <br/>
+        <b>📝 Create Account</b>
+        <br/>
+        <i>New users can register and create an account</i>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/efffcb3e-c609-4b29-a7bd-b9daa7626e13" alt="Discover Stores Dashboard" width="450"/>
+        <br/>
+        <b>🛒 Discover Stores</b>
+        <br/>
+        <i>Normal users can browse, search, and rate stores</i>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/b9640498-fd1c-41c3-a53d-0042df27f861" alt="Admin Dashboard" width="450"/>
+        <br/>
+        <b>🛠️ Admin Dashboard</b>
+        <br/>
+        <i>View statistics, manage users, and manage stores</i>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/9d6dc3b9-51cf-4454-b940-c04b4d16b9f5" alt="Store Owner Dashboard" width="450"/>
+        <br/>
+        <b>🏪 Store Owner Dashboard</b>
+        <br/>
+        <i>Store owners can view ratings and customer feedback</i>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/e9762862-441a-49da-818a-8c2cb9ecdde8" alt="Update Password Page" width="450"/>
+        <br/>
+        <b>🔑 Update Password</b>
+        <br/>
+        <i>Users can update their password securely from their profile</i>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br/>
