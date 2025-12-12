@@ -13,7 +13,7 @@ const app = express();
 
 // CORS configuration - must be before routes
 const corsOptions = {
-  origin: ['https://roxiller-systems-xe4x.vercel.app', 'http://localhost:5173'],
+  origin: ['https://store-rating-system-b4bv.vercel.app', 'http://localhost:5173'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],

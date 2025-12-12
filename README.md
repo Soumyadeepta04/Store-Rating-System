@@ -1,160 +1,193 @@
-# 🏪 RateMaster - Store Rating System
+# � RRateMaster - Modern Store Rating Platform
 
-A stunning, modern full-stack web application that enables users to rate and review stores. Built with cutting-edge technologies and featuring a beautiful glass-morphism UI design with role-based access control for System Administrators, Customers, and Store Owners.
+> A beautiful, full-stack web application for rating and reviewing stores with stunning glass-morphism UI design and role-based access control.
 
-## ✨ Current Status
-- **Backend**: Running on http://localhost:5000 ✅
-- **Frontend**: Running on http://localhost:5173 ✅
-- **Database**: Connected and seeded with demo data ✅
-- **UI**: Modern glass-morphism design with animations ✅
-- **All Dependencies**: Installed and configured ✅
+[![React](https://img.shields.io/badge/React-19.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Neon-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://neon.tech/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.1-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 ---
 
-## 🎨 UI/UX Highlights
+## ✨ Live Demo
 
-### **Modern Design System**
-- ✨ **Glass-morphism Effects** - Frosted glass cards with backdrop blur
-- 🌈 **Gradient Backgrounds** - Animated floating blob gradients
-- 🎭 **Smooth Animations** - Hover effects, transitions, and micro-interactions
-- 📱 **Fully Responsive** - Perfect on desktop, tablet, and mobile
-- 🎯 **No Scrolling Login** - Compact design that fits on one screen
-- 🔮 **Interactive Elements** - Enhanced buttons, inputs, and cards
-- 💫 **Loading States** - Beautiful animated spinners with icons
-- 🎪 **Modern Icons** - SVG icons throughout the interface
-
-### **Page-Specific Features**
-
-**Login & Signup Pages:**
-- Animated gradient backgrounds with floating blobs
-- Glass-effect cards with modern styling
-- Icon-enhanced input fields
-- Collapsible demo credentials
-- Gradient buttons with hover animations
-
-**Admin Dashboard:**
-- Premium stat cards with gradient icons
-- Animated loading states
-- Quick action buttons with gradients
-- Modern card hover effects
-
-**User Dashboard (Stores):**
-- Beautiful store cards with glass effects
-- Interactive star ratings with hover
-- Modern search filters with icons
-- Floating rating dialog modal
-- Status badges for rated stores
-
-**Store Owner Dashboard:**
-- Professional information cards
-- Large rating display with gradients
-- Modern table with customer avatars
-- Enhanced statistics visualization
+🚀 **Backend API**: `http://localhost:5000`  
+🎨 **Frontend App**: `http://localhost:5173`
 
 ---
 
-## 📸 Screenshots
+## 📸 Preview
 
-<!-- Add your updated screenshots here -->
-### Normal User Dashboard: 
-<img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/2652e7b8-2b79-419b-85df-1c1e4a0aa2d8" />
-
-### Store Dashboard: 
-<img width="1919" height="975" alt="image" src="https://github.com/user-attachments/assets/ed7575a2-0476-4dd2-91cf-f5abe8921d6d" />
-
-### Admin Dashboard: 
-<img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/84266da3-b43c-4df6-9548-3d92aaac2f0c" />
-
----
-
-## 🚀 Features
-
-### 🔐 **Authentication & Authorization**
-- Single unified login system for all user roles
-- Role-based access control (RBAC)
-- Secure JWT-based authentication
-- Password update functionality for all users
-- Beautiful login/signup pages with no scrolling required
-
-### 👑 **System Administrator**
-- **Dashboard Analytics**
-  - Total number of users
-  - Total number of stores
-  - Total number of submitted ratings
-  - Modern stat cards with gradient icons
-- **User Management**
-  - Add new admin users and normal users
-  - View all users with filtering capabilities
-  - Filter by: Name, Email, Address, Role
-  - View store owner ratings alongside user details
-- **Store Management**
-  - Add new stores with store owner accounts
-  - View all stores with ratings
-  - Filter stores by: Name, Email, Address
-  - Sortable tables (ascending/descending)
-
-### 👤 **Normal User (Customer)**
-- **Account Management**
-  - Self-registration through beautiful signup page
-  - Update password after login
-- **Store Discovery**
-  - View all registered stores in modern card layout
-  - Search stores by Name and Address with icon-enhanced filters
-  - See detailed store information with ratings
-- **Rating System**
-  - Submit ratings (1-5 stars) for stores
-  - Modify previously submitted ratings
-  - View personal rating alongside overall store rating
-  - Interactive star rating interface with hover effects
-  - Beautiful modal dialog for rating submission
-
-### 🏬 **Store Owner**
-- **Store Dashboard**
-  - View average store rating with large display
-  - See total number of ratings received
-  - Professional information cards with icons
-- **Customer Insights**
-  - View list of all users who rated the store
-  - See individual ratings with timestamps
-  - User details (Name, Email) for each rating
-  - Modern table with customer avatars
-
-### ✨ **Additional Features**
-- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile
-- **Loading States** - Professional animated loaders for all async operations
-- **Form Validations** - Client-side and server-side validation with error icons
-- **Error Handling** - User-friendly error messages with styled alerts
-- **Sortable Tables** - Click column headers to sort
-- **Filter System** - Real-time filtering on all list pages
-- **Back Navigation** - Easy navigation with back buttons
-- **Modern UI/UX** - Glass-morphism design with Tailwind CSS
-- **Smooth Animations** - Transitions, hover effects, and micro-interactions
-- **Empty States** - Beautiful illustrations for no results
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2652e7b8-2b79-419b-85df-1c1e4a0aa2d8" alt="User Dashboard" width="800"/>
+  <p><em>Customer Dashboard - Browse and rate stores</em></p>
+  
+  <img src="https://github.com/user-attachments/assets/ed7575a2-0476-4dd2-91cf-f5abe8921d6d" alt="Store Dashboard" width="800"/>
+  <p><em>Store Owner Dashboard - Monitor ratings and feedback</em></p>
+  
+  <img src="https://github.com/user-attachments/assets/84266da3-b43c-4df6-9548-3d92aaac2f0c" alt="Admin Dashboard" width="800"/>
+  <p><em>Admin Dashboard - Manage users and stores</em></p>
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+## 🎯 Key Features
 
-### **Frontend**
-- **Framework:** React.js 19.2.0
-- **Routing:** React Router DOM 7.9.6
-- **Styling:** Tailwind CSS 3.4.1 (with custom animations)
-- **HTTP Client:** Axios 1.13.2
-- **Build Tool:** Vite 7.2.4
-- **Design:** Glass-morphism, Gradients, Animations
+### 🎨 **Stunning UI/UX**
+- 💎 **Glass-morphism Design** - Frosted glass effects with backdrop blur
+- 🌈 **Animated Gradients** - Dynamic floating blob backgrounds
+- ✨ **Smooth Animations** - Micro-interactions and transitions
+- 📱 **Fully Responsive** - Perfect on all devices
+- 🎭 **No Scrolling Login** - Compact, single-screen authentication
 
-### **Backend**
-- **Framework:** Express.js 5.2.1
-- **Database ORM:** Prisma 5.22.0
-- **Database:** PostgreSQL (Neon)
-- **Authentication:** JWT (jsonwebtoken 9.0.2)
-- **Password Hashing:** bcryptjs 2.4.3
-- **CORS:** cors 2.8.5
+### 🔐 **Authentication & Security**
+- 🎫 JWT-based authentication with 7-day token expiry
+- 🔒 bcrypt password hashing with salt rounds
+- 👮 Role-based access control (Admin, Customer, Store Owner)
+- 🛡️ Protected routes with middleware
+- ✅ Client & server-side validation
 
-### **Development Tools**
-- **Node.js** (v18+ recommended)
-- **npm** or **yarn**
-- **Nodemon** for development
+### 👑 **Admin Features**
+- 📊 Real-time dashboard analytics
+- 👥 User management (Create, View, Filter)
+- 🏪 Store management (Create, View, Filter)
+- 🔍 Advanced filtering and sorting
+- 📈 Statistics visualization
+
+### 👤 **Customer Features**
+- 🔍 Browse stores with beautiful card layouts
+- ⭐ Interactive 5-star rating system
+- 🔄 Update ratings anytime
+- 🎯 Search and filter stores
+- 📱 Responsive mobile experience
+
+### 🏬 **Store Owner Features**
+- 📊 Professional dashboard with statistics
+- ⭐ Average rating display
+- 👥 Customer feedback table
+- 📅 Rating timestamps
+- 💼 Business insights
+
+---
+
+## �️ Teuch Stack
+
+<table>
+<tr>
+<td width="50%">
+
+### Frontend
+- ⚛️ **React 19.2.0** - UI Framework
+- 🎨 **Tailwind CSS 3.4.1** - Styling
+- 🚀 **Vite 7.2.4** - Build Tool
+- 🔀 **React Router 7.9.6** - Routing
+- 📡 **Axios 1.13.2** - HTTP Client
+
+</td>
+<td width="50%">
+
+### Backend
+- 🟢 **Node.js & Express 5.2.1** - Server
+- 🗄️ **Prisma 5.22.0** - ORM
+- 🐘 **PostgreSQL (Neon)** - Database
+- 🔐 **JWT & bcrypt** - Security
+- 🌐 **CORS** - Cross-origin support
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+```bash
+Node.js 18+
+PostgreSQL or Neon account
+npm or yarn
+```
+
+### Installation
+
+**1️⃣ Clone the repository**
+```bash
+git clone <your-repo-url>
+cd RoxillerSystems
+```
+
+**2️⃣ Backend Setup**
+```bash
+cd backend
+npm install
+
+# Create .env file
+cat > .env << EOF
+DATABASE_URL="your_postgresql_connection_string"
+JWT_SECRET="your_secret_key"
+PORT=5000
+NODE_ENV=development
+EOF
+
+# Setup database
+npm run db:setup
+
+# Start server
+npm run dev
+```
+
+**3️⃣ Frontend Setup**
+```bash
+cd frontend
+npm install
+
+# Create .env file (optional)
+echo "VITE_API_URL=http://localhost:5000/api" > .env
+
+# Start app
+npm run dev
+```
+
+**4️⃣ Open Browser**
+```
+http://localhost:5173
+```
+
+---
+
+## 🔑 Demo Accounts
+
+### 👑 Administrator
+```
+📧 sophia.anderson@ratemaster.com
+🔒 SuperAdmin@2024
+```
+
+### 🏪 Store Owners
+```
+1️⃣ Luxury Emporium
+   📧 michael.chen@luxuryemporium.com
+   🔒 Luxury@2024
+
+2️⃣ Green Market Organics
+   📧 emma.rodriguez@greenmarket.com
+   🔒 Organic@2024
+
+3️⃣ Artisan Coffee House
+   📧 david.kim@artisancafe.com
+   🔒 Coffee@2024
+```
+
+### 👤 Customers
+```
+1️⃣ Olivia Martinez
+   📧 olivia.martinez@gmail.com
+   🔒 Welcome@123
+
+2️⃣ James Wilson
+   📧 james.wilson@outlook.com
+   🔒 Welcome@456
+```
 
 ---
 
@@ -162,464 +195,290 @@ A stunning, modern full-stack web application that enables users to rate and rev
 
 ```
 RoxillerSystems/
-├── backend/
+│
+├── 🔧 backend/
 │   ├── prisma/
-│   │   ├── schema.prisma          # Database schema definition
-│   │   └── seed.js                # Database seeding script
+│   │   ├── schema.prisma      # Database schema
+│   │   └── seed.js            # Demo data seeder
 │   ├── src/
-│   │   ├── config/
-│   │   │   └── db.js              # Database configuration
-│   │   ├── controllers/
-│   │   │   ├── adminController.js # Admin functionality
-│   │   │   ├── authController.js  # Authentication logic
-│   │   │   ├── storeController.js # Store owner functionality
-│   │   │   └── userController.js  # User functionality
-│   │   ├── middleware/
-│   │   │   └── authMiddleware.js  # JWT authentication middleware
-│   │   ├── routes/
-│   │   │   ├── adminRoutes.js     # Admin API routes
-│   │   │   ├── authRoutes.js      # Auth API routes
-│   │   │   ├── storeRoutes.js     # Store API routes
-│   │   │   └── userRoutes.js      # User API routes
-│   │   ├── utils/
-│   │   │   └── validation.js      # Server-side validation
-│   │   └── server.js              # Express app entry point
-│   ├── .env                       # Environment variables
-│   └── package.json               # Backend dependencies
+│   │   ├── config/            # Database config
+│   │   ├── controllers/       # Business logic
+│   │   ├── middleware/        # Auth middleware
+│   │   ├── routes/            # API routes
+│   │   ├── utils/             # Helpers
+│   │   └── server.js          # Entry point
+│   └── .env                   # Environment variables
 │
-├── frontend/
-│   ├── public/                    # Static assets
+├── 🎨 frontend/
 │   ├── src/
-│   │   ├── assets/                # Images, icons
-│   │   ├── components/
-│   │   │   ├── Navbar.jsx         # Modern navigation bar
-│   │   │   └── PrivateRoute.jsx   # Protected route wrapper
-│   │   ├── context/
-│   │   │   └── AuthContext.jsx    # Authentication context
-│   │   ├── pages/
-│   │   │   ├── admin/
-│   │   │   │   ├── AdminDashboard.jsx  # Modern admin dashboard
-│   │   │   │   ├── AddStore.jsx
-│   │   │   │   ├── AddUser.jsx
-│   │   │   │   ├── StoresList.jsx
-│   │   │   │   └── UsersList.jsx
-│   │   │   ├── store/
-│   │   │   │   └── StoreDashboard.jsx  # Store owner dashboard
-│   │   │   ├── user/
-│   │   │   │   └── UserStores.jsx      # User stores page
-│   │   │   ├── Login.jsx               # Beautiful login page
-│   │   │   ├── Signup.jsx              # Modern signup page
-│   │   │   └── UpdatePassword.jsx
-│   │   ├── utils/
-│   │   │   ├── api.js             # Axios configuration
-│   │   │   └── validation.js      # Client-side validation
-│   │   ├── App.jsx                # Main app component
-│   │   ├── main.jsx               # React entry point
-│   │   └── index.css              # Global styles with custom CSS
-│   ├── .env                       # Frontend environment variables
-│   ├── index.html                 # HTML template
-│   ├── tailwind.config.js         # Tailwind with custom animations
-│   ├── vite.config.js             # Vite configuration
-│   └── package.json               # Frontend dependencies
+│   │   ├── components/        # Reusable components
+│   │   ├── context/           # React context
+│   │   ├── pages/             # Page components
+│   │   │   ├── admin/         # Admin pages
+│   │   │   ├── store/         # Store owner pages
+│   │   │   └── user/          # Customer pages
+│   │   ├── utils/             # Utilities
+│   │   └── index.css          # Global styles
+│   └── .env                   # Frontend config
 │
-├── .gitignore                     # Git ignore rules
-└── README.md                      # Project documentation
+└── 📖 README.md
 ```
 
 ---
 
-## ⚙️ Installation & Setup
+## 🎨 Design System
 
-### **Prerequisites**
-- Node.js (v18 or higher)
-- PostgreSQL database (or Neon account)
-- npm or yarn package manager
-
-### **1. Clone the Repository**
-```bash
-git clone <repository-url>
-cd RoxillerSystems
+### Color Palette
+```css
+Primary:   Purple to Indigo Gradient (#667eea → #764ba2)
+Secondary: Pink to Red Gradient (#f093fb → #f5576c)
+Success:   Blue to Cyan Gradient (#4facfe → #00f2fe)
 ```
 
-### **2. Backend Setup**
+### Key Components
+- 🎴 **Glass Cards** - Frosted glass effect with backdrop blur
+- 🔘 **Gradient Buttons** - Smooth hover animations
+- ⭐ **Star Ratings** - Interactive with hover effects
+- 📝 **Enhanced Forms** - Icon-enhanced inputs
+- 🎭 **Modal Dialogs** - Floating with blur backdrop
+- 📊 **Modern Tables** - Gradient headers with avatars
 
-```bash
-# Navigate to backend directory
-cd backend
+---
 
-# Install dependencies
-npm install
+## 📋 API Endpoints
 
-# Configure environment variables
-# Create a .env file with the following:
-DATABASE_URL="your_postgresql_connection_string"
-JWT_SECRET="your_jwt_secret_key"
-PORT=5000
-NODE_ENV=development
-
-# Setup database (generate, push schema, and seed data)
-npm run db:setup
-
-# OR run commands individually:
-npm run db:generate  # Generate Prisma Client
-npm run db:push      # Push schema to database
-npm run db:seed      # Seed sample data
-
-# Start the backend server
-npm run dev
+### Authentication
+```
+POST   /api/auth/signup          # Register new user
+POST   /api/auth/login           # User login
+PUT    /api/auth/update-password # Update password
 ```
 
-The backend server will start on `http://localhost:5000`
-
-### **3. Frontend Setup**
-
-Open a new terminal:
-
-```bash
-# Navigate to frontend directory
-cd frontend
-
-# Install dependencies
-npm install
-
-# Create .env file (optional - defaults to localhost:5000)
-echo "VITE_API_URL=http://localhost:5000/api" > .env
-
-# Start the development server
-npm run dev
+### Admin
+```
+GET    /api/admin/dashboard      # Dashboard stats
+POST   /api/admin/users          # Create user
+POST   /api/admin/stores         # Create store
+GET    /api/admin/users          # List users
+GET    /api/admin/stores         # List stores
 ```
 
-The frontend application will start on `http://localhost:5173`
-
-### **4. Access the Application**
-
-Open your browser and navigate to:
+### Customer
 ```
-http://localhost:5173
+GET    /api/user/stores          # Browse stores
+POST   /api/user/ratings         # Submit rating
+```
+
+### Store Owner
+```
+GET    /api/store/dashboard      # Store statistics
 ```
 
 ---
 
-## 🔑 Demo Login Credentials
+## 🔒 Security Features
 
-After seeding the database, use these credentials to test different roles:
-
-### 👑 **Administrator**
-```
-Name: Sophia Anderson
-Email: sophia.anderson@ratemaster.com
-Password: SuperAdmin@2024
-```
-
-### 🏪 **Store Owners**
-
-**1. Luxury Emporium**
-```
-Owner: Michael Chen
-Email: michael.chen@luxuryemporium.com
-Password: Luxury@2024
-Location: Beverly Hills, CA
-```
-
-**2. Green Market Organics**
-```
-Owner: Emma Rodriguez
-Email: emma.rodriguez@greenmarket.com
-Password: Organic@2024
-Location: San Francisco, CA
-```
-
-**3. Artisan Coffee House**
-```
-Owner: David Kim
-Email: david.kim@artisancafe.com
-Password: Coffee@2024
-Location: Seattle, WA
-```
-
-### 👤 **Customers**
-
-**1. Olivia Martinez**
-```
-Email: olivia.martinez@gmail.com
-Password: Welcome@123
-Location: Miami Beach, FL
-```
-
-**2. James Wilson**
-```
-Email: james.wilson@outlook.com
-Password: Welcome@456
-Location: Chicago, IL
-```
+| Feature | Implementation |
+|---------|---------------|
+| 🔐 Password Hashing | bcryptjs with 10 salt rounds |
+| 🎫 Authentication | JWT tokens (7-day expiry) |
+| 👮 Authorization | Role-based access control |
+| 🛡️ API Protection | Middleware authentication |
+| ✅ Input Validation | Client & server-side |
+| 🚫 SQL Injection | Prisma ORM protection |
+| 🌐 CORS | Configured origins |
 
 ---
 
-## 📋 Form Validation Rules
+## 📊 Database Schema
 
-### **Name**
-- Minimum: 20 characters
-- Maximum: 60 characters
-- Example: `John Doe Customer Account`
-
-### **Email**
-- Must follow standard email format
-- Example: `user@example.com`
-
-### **Password**
-- Length: 8-16 characters
-- Must contain at least one uppercase letter
-- Must contain at least one special character
-- Example: `Password@123`
-
-### **Address**
-- Maximum: 400 characters
-- Example: `123 Main Street, City, State, ZIP`
-
----
-
-## 🗄️ Database Schema
-
-### **User Model**
 ```prisma
-model User {
-  id        String   @id @default(uuid())
+User {
+  id        UUID
   name      String
-  email     String   @unique
-  password  String   (Hashed with bcrypt)
+  email     String @unique
+  password  String (hashed)
   address   String
-  role      UserRole @default(USER)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  
+  role      Enum (ADMIN, USER, STORE_OWNER)
   store     Store?
   ratings   Rating[]
 }
 
-enum UserRole {
-  ADMIN
-  USER
-  STORE_OWNER
-}
-```
-
-### **Store Model**
-```prisma
-model Store {
-  id        String   @id @default(uuid())
+Store {
+  id        UUID
   name      String
-  email     String   @unique
+  email     String @unique
   address   String
-  ownerId   String   @unique
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  
-  owner     User     @relation(fields: [ownerId], references: [id])
+  ownerId   UUID @unique
+  owner     User
   ratings   Rating[]
 }
-```
 
-### **Rating Model**
-```prisma
-model Rating {
-  id        String   @id @default(uuid())
-  rating    Int      (1-5)
-  userId    String
-  storeId   String
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  
-  user      User     @relation(fields: [userId], references: [id])
-  store     Store    @relation(fields: [storeId], references: [id])
-  
+Rating {
+  id        UUID
+  rating    Int (1-5)
+  userId    UUID
+  storeId   UUID
+  user      User
+  store     Store
   @@unique([userId, storeId])
 }
 ```
 
 ---
 
-## 🎨 Design Features
+## 🧪 Testing Guide
 
-### **Visual Design**
-- ✨ **Glass-morphism UI** - Frosted glass effects with backdrop blur
-- 🌈 **Gradient Backgrounds** - Animated floating blob gradients
-- 🎭 **Smooth Animations** - Hover effects, transitions, and micro-interactions
-- 💫 **Custom Animations** - Blob, float, and shimmer keyframe animations
-- 🎯 **Modern Icons** - SVG icons throughout the interface
-- 🔮 **Interactive Elements** - Enhanced buttons, inputs, and cards
-
-### **User Experience**
-- 📱 **Fully Responsive** - Perfect on all screen sizes
-- 🎪 **Loading States** - Beautiful animated spinners
-- 🚨 **Error Handling** - Styled error messages with icons
-- ✅ **Form Validation** - Real-time validation with visual feedback
-- 🎨 **Empty States** - Beautiful illustrations for no results
-- 🔄 **Smooth Transitions** - Page transitions and element animations
-
-### **Component Features**
-- 🌟 **Interactive Star Ratings** - Hover effects and animations
-- 🃏 **Modern Cards** - Glass-effect cards with hover states
-- 🔘 **Gradient Buttons** - Beautiful gradient buttons with shadows
-- 📝 **Enhanced Forms** - Icon-enhanced input fields
-- 📊 **Modern Tables** - Gradient headers with hover effects
-- 🎭 **Modal Dialogs** - Floating modals with backdrop blur
-
----
-
-## 🔒 Security Features
-
-- 🔐 **Password Hashing** - Using bcryptjs with salt rounds
-- 🎫 **JWT Authentication** - Secure token-based sessions (7-day expiry)
-- 👮 **Role-Based Access Control** - RBAC for all routes
-- 🛡️ **Protected API Routes** - Middleware authentication
-- ✅ **Input Validation** - Both client-side and server-side
-- 🚫 **SQL Injection Prevention** - Via Prisma ORM
-- 🌐 **CORS Configuration** - Configured for cross-origin requests
-- 🔄 **Auto Token Refresh** - Axios interceptors for token management
-
----
-
-## 🧪 Testing the Application
-
-### **1. Start Both Servers**
-```bash
-# Terminal 1 - Backend
-cd backend
-npm run dev
-
-# Terminal 2 - Frontend
-cd frontend
-npm run dev
+### 1. Admin Workflow
+```
+1. Login as admin
+2. View dashboard statistics
+3. Create new user/store
+4. Filter and sort data
+5. Manage platform
 ```
 
-### **2. Access the Application**
-Open your browser and navigate to: `http://localhost:5173`
-
-### **3. Test Admin Features**
-- Login with admin credentials
-- View dashboard statistics with modern UI
-- Add new users and stores
-- Apply filters and sorting
-- Manage users and stores
-
-### **4. Test Customer Features**
-- Sign up as a new user or login with test credentials
-- Browse stores in beautiful card layout
-- Search and filter stores
-- Submit and modify ratings with interactive stars
-- View your ratings alongside store averages
-
-### **5. Test Store Owner Features**
-- Login with store owner credentials
-- View store dashboard with professional design
-- See average rating and total ratings
-- View customer ratings in modern table
-- Monitor customer feedback
-
----
-
-## 🚀 Deployment
-
-### **Backend (Vercel)**
-The backend is configured for Vercel deployment with `vercel.json`:
-```bash
-cd backend
-vercel deploy
+### 2. Customer Workflow
+```
+1. Sign up or login
+2. Browse stores
+3. Search and filter
+4. Rate stores (1-5 stars)
+5. Update ratings
 ```
 
-### **Frontend (Vercel)**
-The frontend is also configured for Vercel:
-```bash
-cd frontend
-vercel deploy
+### 3. Store Owner Workflow
 ```
-
-### **Database**
-Using Neon PostgreSQL (serverless PostgreSQL):
-- Already configured in `.env`
-- Automatic connection pooling
-- Serverless-friendly
+1. Login as store owner
+2. View dashboard
+3. Check average rating
+4. Review customer feedback
+5. Monitor statistics
+```
 
 ---
 
 ## 📝 Available Scripts
 
-### **Backend**
+### Backend
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm start` | Start production server |
+| `npm run db:setup` | Complete database setup |
+| `npm run db:seed` | Seed demo data |
+
+### Frontend
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start Vite dev server |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview production build |
+| `npm run lint` | Run ESLint |
+
+---
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+
+**Backend:**
 ```bash
-npm run dev          # Start development server with nodemon
-npm start            # Start production server
-npm run db:generate  # Generate Prisma Client
-npm run db:push      # Push schema to database
-npm run db:seed      # Seed database with demo data
-npm run db:setup     # Complete database setup (generate + push + seed)
+cd backend
+vercel deploy
 ```
 
-### **Frontend**
+**Frontend:**
 ```bash
-npm run dev      # Start Vite development server
-npm run build    # Build for production
-npm run preview  # Preview production build
-npm run lint     # Run ESLint
+cd frontend
+vercel deploy
+```
+
+### Environment Variables
+```env
+# Backend
+DATABASE_URL=your_neon_postgres_url
+JWT_SECRET=your_secret_key
+PORT=5000
+
+# Frontend
+VITE_API_URL=your_backend_url/api
 ```
 
 ---
 
-## 🎯 Key Improvements
+## 🎯 Validation Rules
 
-### **UI/UX Enhancements**
-✅ No scrolling required on login/signup pages
-✅ Glass-morphism design throughout
-✅ Animated gradient backgrounds
-✅ Interactive star ratings with hover effects
-✅ Modern loading states with icons
-✅ Enhanced error messages with styling
-✅ Collapsible demo credentials on login
-✅ Beautiful modal dialogs
-✅ Smooth page transitions
+| Field | Rules |
+|-------|-------|
+| **Name** | 20-60 characters |
+| **Email** | Valid email format |
+| **Password** | 8-16 chars, 1 uppercase, 1 special char |
+| **Address** | Max 400 characters |
 
-### **Performance**
-✅ Optimized bundle size with Vite
-✅ Lazy loading for routes
-✅ Efficient state management
-✅ Optimized database queries with Prisma
-✅ Connection pooling for database
+---
 
-### **Developer Experience**
-✅ Hot module replacement (HMR)
-✅ TypeScript-ready structure
-✅ ESLint configuration
-✅ Organized file structure
-✅ Reusable components
-✅ Custom Tailwind utilities
+## 🌟 Key Highlights
+
+✅ **Modern UI** - Glass-morphism design with animations  
+✅ **Secure** - JWT auth with bcrypt hashing  
+✅ **Responsive** - Works on all devices  
+✅ **Fast** - Optimized with Vite  
+✅ **Scalable** - Clean architecture  
+✅ **Type-Safe** - Prisma ORM  
+✅ **Real-time** - Instant updates  
+✅ **Accessible** - WCAG compliant  
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ---
 
 ## 📄 License
 
-This project is licensed under the ISC License.
+This project is licensed under the **ISC License**.
 
 ---
 
 ## 👨‍💻 Author
 
-Developed as part of the FullStack Intern Coding Challenge
+**Developed for FullStack Intern Coding Challenge**
 
 ---
 
 ## 🙏 Acknowledgments
 
-- React.js for the amazing frontend framework
-- Tailwind CSS for the utility-first CSS framework
-- Prisma for the excellent ORM
-- Vite for the blazing-fast build tool
-- Neon for serverless PostgreSQL
+Special thanks to:
+- [React](https://reactjs.org/) - The amazing UI library
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Prisma](https://www.prisma.io/) - Next-generation ORM
+- [Vite](https://vitejs.dev/) - Lightning-fast build tool
+- [Neon](https://neon.tech/) - Serverless PostgreSQL
 
 ---
 
-**Made with ❤️ and modern web technologies**
+## 📞 Support
+
+If you have any questions or need help, please:
+- 📧 Open an issue
+- 💬 Start a discussion
+- ⭐ Star this repository
+
+---
+
+<div align="center">
+
+### Made with ❤️ using Modern Web Technologies
+
+**[⬆ Back to Top](#-ratemaster---modern-store-rating-platform)**
+
+</div>
